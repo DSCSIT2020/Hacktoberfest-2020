@@ -1,5 +1,5 @@
 To install this - 
 Step 1 - Download ZIP file
-Step 2 - Extract the resources.
+Step 2 - Extract the resources in a folder.
 Step 3 - Make sure both the Board.java and Main.java file are in the same folder.
-Step 4 - Run main.java file, you'll be able to play!
+Step 4 - Run main.java file on any Java platform like BlueJ, you'll be able to play!

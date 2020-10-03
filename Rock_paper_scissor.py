@@ -1,52 +1,40 @@
-#impost random module
+#import random module
 import random
 
 #game rule
-print("Game rule:\n\tRock vs Paper => Paper Win \n\tPaper vs Scissor => Scissor Win \n\tRock vs Scissor => Rock Win")
+print("Game rules:\n\tRock vs Paper => Paper Wins \n\tPaper vs Scissor => Scissor Wins \n\tRock vs Scissor => Rock Wins")
+#array for the choices
+choiceArray = ["Rock","Paper","Scissor"]
+#To keep playing
+while True:
+    print("\nChoices are: \n\t1.Rock \n\t2.Paper \n\t3.Scissor")
 
-#For play again
-while True:  
-    print("\nChoices are: \n\t1.Rock \n\t2.paper \n\t3.Scissor")
-
-    #Computer choice    
+    #Computer's choice
     print("\nComputer's turn")
     print("----------------------")
     print("Computer has done secretly. Obviously You're not able to see it now")
-    computer_choice = random.randint(1,3)
-    if computer_choice == 1:
-        computer_choice_name = "Rock"
-    elif computer_choice == 2:
-        computer_choice_name = "Paper"
-    elif computer_choice == 3:
-        computer_choice_name = "Scissor"
+    computer_choice = random.randint(0,2)
 
     # Print user choice
     print("\nYour turn")
     print("--------------")
-    user_choice = int(input("Enter your choice: "))
-    while user_choice > 3 or user_choice < 1: 
-        user_choice = int(input("enter valid input: ")) 
-    if user_choice == 1:
-        user_choice_name = "Rock"
-    elif user_choice == 2:
-        user_choice_name = "Paper"
-    else:
-        user_choice_name = "Scissor"
+    user_choice = int(input("Enter your choice: "))-1
+    while user_choice > 2 or user_choice < 0:
+        user_choice = int(input("enter valid input: "))
 
+    print("\n" + choiceArray[computer_choice] + " vs " + choiceArray[user_choice])
 
-    print("\n" + computer_choice_name + " vs " + user_choice_name)
-
-    if computer_choice_name == user_choice_name:
+    if computer_choice == user_choice:
         print("\nDraw")
-    elif ((computer_choice_name == 1 and user_choice_name == 2) or (computer_choice_name == 2 and user_choice_name == 3) or (computer_choice_name == 3 and user_choice_name == 1)):
-        print(user_choice_name + " wins. You Win")
+    elif ((computer_choice == 1 and user_choice == 2) or (computer_choice == 2 and user_choice == 3) or (computer_choice == 3 and user_choice == 1)):
+        print(choiceArray[user_choice] + " wins. You Win")
     else:
-        print(computer_choice_name + " wins. Computer win")
+        print(choiceArray[computer_choice] + " wins. Computer wins")
 
-        print("\nDo you want to continue (Y/N)")
-        answer=input()
+    print("\nDo you want to continue (Y/N)")
+    answer=input()
 
-        if (answer == "N" or answer == "n"):
-            break
+    if (answer == "N" or answer == "n"):
+        break
 
 print("Thanks for playing")

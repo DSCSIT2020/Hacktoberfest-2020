@@ -9,7 +9,7 @@ def printFizzBuzz(n = 100):
         if i % 5 == 0:
             output += 'Buzz'
         print(i, output)
-        
+
 
 if __name__ == '__main__':
     # If there is number specified as commandline input, 

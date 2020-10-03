@@ -6,3 +6,4 @@
 - [VishnuThokala](https://github.com/VishnuThokala)
 - [Shaurya026](https://github.com/Shaurya026)
 - [Jeevesh-Joshi](https://github.com/Jeevesh-Joshi)
+- [Chinmay-Chaudhari](https://github.com/chinmay9194)

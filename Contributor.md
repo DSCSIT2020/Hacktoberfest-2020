@@ -1,1 +1,8 @@
 - [Chaitalykundu](https://github.com/Chaitalykundu)
+- [ajaykhanna](https://github.com/ajaykhanna123)
+- [deepdhar](https://github.com/deepdhar)
+- [ALOKARYAN51](https://github.com/ALOKARYAN51)
+- [akankshast](https://github.com/akankshast)
+- [VishnuThokala](https://github.com/VishnuThokala)
+- [Shaurya026](https://github.com/Shaurya026)
+- [Jeevesh-Joshi](https://github.com/Jeevesh-Joshi)

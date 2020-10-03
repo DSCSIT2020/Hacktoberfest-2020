@@ -1,0 +1,109 @@
+<html>
+
+<head>
+<title>MiniCalculator</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+
+            background-color: #818181;
+
+        }
+
+        .content {
+            padding: 500px 500px;
+        }
+
+        .button {
+            color: black;
+            padding: 15px 32px;
+            text-align: center;
+            font-size: 20px;
+            margin: 4px 2px;
+
+        }
+
+        .inp {
+
+            height: 60px;
+            font-size: 29px;
+
+            direction: rtl;
+        }
+    </style>
+    <script type="text/javascript">
+        function func(val) {
+            var str = document.getElementById("input").value
+
+            if (val != '=')
+                document.getElementById("input").value += val
+            else
+                document.getElementById("input").value = eval(document.getElementById("input").value)
+            if (val == 'Cl')
+                document.getElementById("input").value = "";
+            if (val == 'D') {
+                document.getElementById("input").value = str.substring(0, str.length - 1);
+            }
+
+
+        } 
+    </script>
+    <title>Simple Calculator</title>
+</head>
+
+<body>
+    <div class="content">
+
+        <iframe src="https://docs.google.com/gview?url=http://fppt.com/myfile.ppt&embedded=true" style="width:600px;"
+            frameborder="0"></iframe>
+
+        <table>
+            <tr>
+                <td>
+                    <input type="text" class="inp" name="out" id="input" disabled>
+                </td>
+            </tr>
+        </table>
+        <table>
+
+            <tr>
+                <td><input type="button" class="button" value="7" onclick="func(7)"></td>
+                <td><input type="button" class="button" value="8" onclick="func(8)"></td>
+                <td><input type="button" class="button" value="9" onclick="func(9)"></td>
+                <td><input type="button" class="button" value="+" onclick="func('+')"></td>
+            </tr>
+            <tr>
+                <td><input type="button" class="button" value="4" onclick="func(4)"></td>
+                <td><input type="button" class="button" value="5" onclick="func(5)"></td>
+                <td><input type="button" class="button" value="6" onclick="func(6)"></td>
+                <td><input type="button" class="button" value="-" onclick="func('-')"></td>
+            </tr>
+            <tr>
+                <td><input type="button" class="button" value="1" onclick="func(1)"></td>
+                <td><input type="button" class="button" value="2" onclick="func(2)"></td>
+                <td><input type="button" class="button" value="3" onclick="func(3)"></td>
+
+                <td><input type="button" class="button" value="x" onclick="func('*')"></td>
+            </tr>
+            <tr>
+                <td><input type="button" class="button" value="^" onclick="func('^')"></td>
+                <td><input type="button" class="button" value="0" onclick="func(0)"></td>
+                <td><input type="button" class="button" value="%" onclick="func('%')"></td>
+
+                <td><input type="button" class="button" value="/" onclick="func('/')"></td>
+            </tr>
+            <tr>
+                <td><input type="button" class="button" value="D" onclick="func('D')"> </td>
+                <td><input type="button" class="button" value="." onclick="func('.')"></td>
+                <td><input type="button" class="button" value="Cl" onclick="func('Cl')"></td>
+                <td><input type="button" class="button" value="=" onclick="func('=')"></td>
+            </tr>
+
+
+        </table>
+
+    </div>
+</body>
+</head>
+
+</html>

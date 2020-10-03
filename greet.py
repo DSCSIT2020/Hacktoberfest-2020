@@ -1,3 +1,3 @@
-def greet():
-    print("Hello "+input("Hey! What's your name? "))
-greet()
+
+name=input("Hey! Please type your name: ")
+print("Hello, {}".format(name))

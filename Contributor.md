@@ -1,1 +1,2 @@
 - [Chaitalykundu](https://github.com/Chaitalykundu)
+- [Ricky](https://github.com/Ricky-001)

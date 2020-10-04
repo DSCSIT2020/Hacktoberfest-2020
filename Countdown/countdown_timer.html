@@ -1,0 +1,28 @@
+<html>
+	<head>
+		<title> Countdown Timer </title>
+		<link rel="stylesheet" type="text/css" href="countdown_timer.css" />
+	</head>
+	<body>
+		<h1> countdown </h1>
+		<div class="container">
+			<h2 id="count"> 20 </h2>
+		</div>
+		<!-- javascript part -->
+		<script type="text/javascript">
+			var counter = 20;
+			
+			setInterval( function(){
+				counter--;
+				
+				if(counter >=0){
+					id = document.getElementById("count");
+					id.innerHTML = counter;
+				}
+				if(counter ===0){
+					id.innerHTML = "complete";
+				}
+			},1000);
+		</script>
+	</body>
+</html>

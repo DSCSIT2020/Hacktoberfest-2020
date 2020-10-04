@@ -4,4 +4,3 @@
 - [ALOKARYAN51](https://github.com/ALOKARYAN51)
 - [akankshast](https://github.com/akankshast)
 - [VishnuThokala](https://github.com/VishnuThokala)
-- [shivgopal07](https://github.com/shivgopal07)

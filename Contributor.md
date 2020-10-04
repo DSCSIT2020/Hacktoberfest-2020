@@ -1,4 +1,5 @@
 - [Chaitalykundu](https://github.com/Chaitalykundu)
+- [Darshan Jain](https://github.com/darshanjain2000)
 - [ajaykhanna](https://github.com/ajaykhanna123)
 - [deepdhar](https://github.com/deepdhar)
 - [ALOKARYAN51](https://github.com/ALOKARYAN51)

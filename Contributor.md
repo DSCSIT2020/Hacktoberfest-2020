@@ -1,1 +1,2 @@
 - [Chaitalykundu](https://github.com/Chaitalykundu)
+- [Amisha Singh](https://github.com/amisha-28)

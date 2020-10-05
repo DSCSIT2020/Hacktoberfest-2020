@@ -1,1 +1,0 @@
-- [Amisha Singh](https://github.com/amisha-28)

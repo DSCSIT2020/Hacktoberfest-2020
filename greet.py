@@ -1,3 +1,5 @@
 def greet():
-    print("Hello "+input("Hey! What's your name? "))
+    print("Hello "+ x)
+    print("WELCOME TO DSC SIT")
+x = input("Hey! What's your name? ")
 greet()

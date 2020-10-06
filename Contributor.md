@@ -9,3 +9,4 @@
 - [Shivgopal07](https://github.com/Shivgopal07)
 - [Shweta-Rashi](https://github.com/Shweta-Rashi)
 - [Abhineet Mishra](https://github.com/abhineetmishra64)
+- [Yassine Latreche](https://github.com/Yassine-Latreche)

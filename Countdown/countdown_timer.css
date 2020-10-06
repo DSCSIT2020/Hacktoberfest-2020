@@ -1,0 +1,27 @@
+body{
+	background:pink;
+}
+
+h1 {
+	text-align:center;
+	font-size: 80px;
+	color:green;
+}
+
+h2 {
+	font-family: sevenSegment;
+	font-size: 150px;
+	color: red;
+}
+	
+.Container {
+	position: absolute;
+	top:60%;
+	left:50%;
+	transform : translate(-50%,-50%);
+	text-align: center;
+	background-color: white;
+	border: 2px solid green;
+	padding: 20px 50px;
+	box-shadow: 0 0 10px 10px #ccc;
+}

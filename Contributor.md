@@ -6,4 +6,3 @@
 - [VishnuThokala](https://github.com/VishnuThokala)
 - [Shaurya026](https://github.com/Shaurya026)
 - [Jeevesh-Joshi](https://github.com/Jeevesh-Joshi)
-- [Yassine Latreche](https://github.com/Yassine-Latreche)

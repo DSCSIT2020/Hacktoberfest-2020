@@ -1,3 +1,3 @@
-def greet():
-    print("Hello "+input("Hey! What's your name? "))
-greet()
+my_greet= "Hello,"
+print(my_greet + input("Enter your name : "))
+
